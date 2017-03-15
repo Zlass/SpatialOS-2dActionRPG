@@ -1,0 +1,18 @@
+package improbable.player;
+import improbable.classes;
+
+component Stats{
+    id = 7001;
+
+    bool is_alive = 1;
+    uint64 current_time_alive = 2;
+    uint64 most_time_alive = 3;
+    uint32 death_count = 4;
+    uint32 highest_floor = 5;
+    uint32 highest_level = 6;
+}
+
+type PlayStyle{
+    ClassType favorite_class = 1;
+    ClassType most_played_class = 2;
+}

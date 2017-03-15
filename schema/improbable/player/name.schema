@@ -1,0 +1,9 @@
+package improbable.player;
+
+component Name {
+    // Schema file ID, unique within the project
+    id = 7000;
+
+    string entity_name = 1;
+
+}
