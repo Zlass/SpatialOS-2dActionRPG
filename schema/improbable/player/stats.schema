@@ -1,5 +1,4 @@
 package improbable.player;
-import improbable.classes;
 
 component Stats{
     id = 7001;
@@ -10,9 +9,4 @@ component Stats{
     uint32 death_count = 4;
     uint32 highest_floor = 5;
     uint32 highest_level = 6;
-}
-
-type PlayStyle{
-    ClassType favorite_class = 1;
-    ClassType most_played_class = 2;
 }
