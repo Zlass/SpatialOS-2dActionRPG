@@ -7,35 +7,19 @@ using UnityEngine;
 using JetBrains.Annotations;
 using UnityEditor;
 
-public class SnapshotMenu : MonoBehaviour
+namespace Assets.Editor
 {
-    private static readonly string InitialWorldSnapshotPath = Application.dataPath +
-                                                              "/../../../snapshots/initial_world.snapshot";
+  public class SnapshotMenu : MonoBehaviour
+  {
 
-    [MenuItem("Improbable/Snapshots/Generate Snapshot Programmatically")]
+    [MenuItem("Improbable/Snapshots/Generate Default Snapshot")]
     [UsedImplicitly]
-    private static void GenerateSnapshotProgrammatically()
+    private static void GenerateDefaultSnapshot()
     {
-        var snapshotEntities = new Dictionary<EntityId, SnapshotEntity>();
-        var currentEntityId = 1;
-
-        snapshotEntities.Add(new EntityId(currentEntityId++), ExampleEntityTemplate.GenerateExampleSnapshotEntityTemplate());
-
-        SaveSnapshot(snapshotEntities);
+      var path = Application.dataPath + "/../../../snapshots/";
+      var snapshot = new SnapshotBuilder("default.snapshot", path);
+      SnapshotDefault.Build(snapshot); 
+      snapshot.SaveSnapshot();
     }
-
-    private static void SaveSnapshot(IDictionary<EntityId, SnapshotEntity> snapshotEntities)
-    {
-        File.Delete(InitialWorldSnapshotPath);
-        var maybeError = Snapshot.Save(InitialWorldSnapshotPath, snapshotEntities);
-
-        if (maybeError.HasValue)
-        {
-            Debug.LogErrorFormat("Failed to generate initial world snapshot: {0}", maybeError.Value);
-        }
-        else
-        {
-            Debug.LogFormat("Successfully generated initial world snapshot at {0}", InitialWorldSnapshotPath);
-        }
-    }
+  }
 }

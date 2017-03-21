@@ -1,7 +1,7 @@
 package character.inventory;
 
 component Bag{
-  id = ;
+  id = 7800;
   uint32 bag_size = 1;
   map<uint32, EntityId> bag_contents = 2;
 }

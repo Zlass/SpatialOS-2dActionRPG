@@ -46,5 +46,8 @@
   7600  -   MainHand
   7700  -   OffHand
 
-### Items
+  ### Inventory
+  7800 -  Bag
+
+### 50000+ Items
   50000 -   Core.Info
