@@ -1,0 +1,50 @@
+##  1000-1999 World Components
+  ### Authority
+  1000  -   ClientAuthorityCheck
+  1001  -   FSimAuthorityCheck
+
+  ### Location
+  1111  -   Location
+
+  ### Player
+  1800  -   Manager
+  1801  -   Name
+  1802  -   Stats
+  1803  -   Controls
+  1804	-   Connection
+
+##  6000-7999 Character Components
+  ### Info
+  6000  -   Level
+  6010  -   Direction
+  6050  -   Name
+
+  ### Atributes
+  6100  -   Charisma
+  6200  -   Constitution
+  6300  -   Dexterity
+  6400  -   Intelligence
+  6500  -   Strength
+  6600  -   Wisdom
+
+  ### Stats
+  6700  -   Health
+  6800  -   Mana
+  6900  -   Experience
+
+  ### Equipment
+  7100  -   Head
+  7150  -   Neck
+  7200  -   Back
+  7250  -   Chest
+  7300  -   Belt
+  7350  -   Legs
+  7400  -   Feet
+  7450  -   Arms
+  7500  -   Hands
+  7550  -   Fingers
+  7600  -   MainHand
+  7700  -   OffHand
+
+### Items
+  50000 -   Core.Info

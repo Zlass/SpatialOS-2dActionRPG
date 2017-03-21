@@ -1,0 +1,10 @@
+package world.player;
+
+import "core/util.schema";
+
+component PlayerConnection{
+  id = 1804;
+
+  uint32 timeout = 1;
+  command core.util.Nothing check_connection(core.util.Nothing);
+}

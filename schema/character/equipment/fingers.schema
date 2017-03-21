@@ -1,0 +1,14 @@
+package character.equipment;
+
+enum FingerSlot{
+  RPRIMARY = 0;
+  RSECONDARY = 1;
+  LPRIMARY = 2;
+  LSECONDARY = 3;
+}
+
+component Fingers{
+  id = 7550;
+
+  map<FingerSlot, EntityId> character_rings = 1;
+}

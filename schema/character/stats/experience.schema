@@ -1,0 +1,6 @@
+package character.stats;
+
+component Experience{
+  id = 6900;
+  uint64 character_exp = 1;
+}

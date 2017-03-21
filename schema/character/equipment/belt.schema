@@ -1,0 +1,7 @@
+package character.equipment;
+
+component Belt{
+  id = 7300;
+
+  option<EntityId> item = 1;
+}

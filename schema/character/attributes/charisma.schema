@@ -1,0 +1,9 @@
+package character.attributes;
+
+component Charisma{
+  id = 6100;
+  
+  uint32 level = 1;
+  uint32 buff = 2;
+  uint32 debuff = 3;
+}

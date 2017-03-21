@@ -1,0 +1,9 @@
+package character.equipment;
+
+component Arms{
+  id = 7450;
+
+  option<EntityId> item_right = 1;
+  option<EntityId> item_left = 2;
+  option<EntityId> item_both = 3;
+}

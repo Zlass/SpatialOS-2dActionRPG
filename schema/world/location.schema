@@ -1,0 +1,12 @@
+package world.location;
+
+type TeleportEvent{
+  Coordinates target_location = 1;
+}
+
+component Location{
+  id = 1111;
+
+  EntityPosition position = 1;
+  event TeleportEvent teleport_event;
+}

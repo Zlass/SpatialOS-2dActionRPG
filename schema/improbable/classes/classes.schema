@@ -1,7 +1,0 @@
-package improbable.classes;
-
-enum ClassType{
-    WARRIOR = 0;
-    MAGICIAN = 1;
-    RANGER = 2;
-}

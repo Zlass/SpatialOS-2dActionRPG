@@ -1,10 +1,10 @@
-package improbable.player;
+package world.player;
 
 component Stats{
-    id = 7001;
+    id = 1802;
 
     bool is_alive = 1;
-    uint64 current_time_alive = 2;
+    uint64 total_time_alive = 2;
     uint64 most_time_alive = 3;
     uint32 death_count = 4;
     uint32 highest_floor = 5;

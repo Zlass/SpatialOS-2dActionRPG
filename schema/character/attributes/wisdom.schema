@@ -1,0 +1,9 @@
+package character.attributes;
+
+component Wisdom{
+  id = 6600;
+  
+  uint32 level = 1;
+  uint32 buff = 2;
+  uint32 debuff = 3;
+}

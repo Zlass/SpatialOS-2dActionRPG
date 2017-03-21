@@ -1,0 +1,6 @@
+package character.info;
+
+component Level{
+  id = 6000;
+  uint32 character_level = 1;
+}

@@ -1,0 +1,9 @@
+package character.attributes;
+
+component Dexterity{
+  id = 6300;
+  
+  uint32 level = 1;
+  uint32 buff = 2;
+  uint32 debuff = 3;
+}

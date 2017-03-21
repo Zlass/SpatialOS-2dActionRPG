@@ -1,0 +1,20 @@
+package world.player;
+
+import "core/util.schema";
+
+type SpawnPlayerRequest {}
+
+type DeletePlayerRequest {
+  Coordinates last_position = 1;
+}
+
+
+component PlayerManager{
+  id = 1800;
+  
+  map<string, EntityId> player_entity_ids = 1;
+  map<string, Coordinates> player_spawn_location = 2;
+  
+  command core.util.Nothing spawn_player(SpawnPlayerRequest);
+  command core.util.Nothing delete_player(DeletePlayerRequest);
+}

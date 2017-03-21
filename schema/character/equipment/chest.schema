@@ -1,0 +1,7 @@
+package character.equipment;
+
+component Chest{
+  id = 7250;
+
+  option<EntityId> item = 1;
+}

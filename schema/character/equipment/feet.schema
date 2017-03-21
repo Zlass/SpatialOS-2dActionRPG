@@ -1,0 +1,8 @@
+package character.equipment;
+
+component Feet{
+  id = 7400;
+
+  option<EntityId> item_left = 1;
+  option<EntityId> item_right = 2;
+}

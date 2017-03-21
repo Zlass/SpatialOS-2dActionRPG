@@ -1,0 +1,7 @@
+package world.player;
+
+component Controls{
+  id = 1803;
+
+  Coordinates target_postion = 1;
+}

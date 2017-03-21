@@ -1,0 +1,7 @@
+package character.stats;
+
+component Health{
+  id = 6700;
+  
+  uint32 character_health = 1;
+}

@@ -1,0 +1,14 @@
+package character.classes;
+
+enum ClassType{
+    CITIZEN = 0;
+    WARRIOR = 1;
+    MAGICIAN = 2;
+    RANGER = 3;
+}
+
+component Class{
+    id = 7000;
+    ClassType character_class = 1;
+    map<ClassType, uint32> class_levels = 2;
+}

@@ -1,0 +1,8 @@
+package character.equipment;
+
+component Head{
+  id = 7100;
+
+  option<EntityId> face = 1;
+  option<EntityId> head = 2;
+}

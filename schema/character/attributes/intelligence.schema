@@ -1,0 +1,9 @@
+package character.attributes;
+
+component Intelligence{
+  id = 6400;
+  
+  uint32 level = 1;
+  uint32 buff = 2;
+  uint32 debuff = 3;
+}

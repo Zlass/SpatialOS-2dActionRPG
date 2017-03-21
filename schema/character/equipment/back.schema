@@ -1,0 +1,7 @@
+package character.equipment;
+
+component Back{
+  id = 7200;
+
+  option<EntityId> item = 1;
+}

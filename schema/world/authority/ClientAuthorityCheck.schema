@@ -1,0 +1,5 @@
+package world.authority;
+
+component ClientAuthorityCheck {
+  id = 1000;
+}

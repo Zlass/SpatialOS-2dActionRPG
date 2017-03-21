@@ -1,0 +1,9 @@
+package character.equipment;
+
+component Hand{
+  id = 7500;
+
+  option<EntityId> item_left = 1;
+  option<EntityId> item_right = 2;
+  option<EntityId> item_both = 3;
+}
