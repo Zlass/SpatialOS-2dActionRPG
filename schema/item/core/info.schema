@@ -4,4 +4,5 @@ component Info{
   id = 50000;
   string name = 1;
   string creator = 2;
+  string owner = 3;
 }
