@@ -1,4 +1,4 @@
-package items.core;
+package item.core;
 
 component Info{
   id = 50000;

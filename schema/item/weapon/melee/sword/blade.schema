@@ -1,1 +1,5 @@
 package item.weapon.melee.sword;
+
+component Blade{
+  id = 51000;
+}
